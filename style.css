@@ -18,8 +18,10 @@ h3{
     margin: 20px 0;
 }
 p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
+    color: #a7a6a6;
+    margin: 12px;
 }
 .fa{
     font-size: 40px;
@@ -125,4 +127,20 @@ p{
 }
 .plan-items>.item:nth-child(3){
     background: #81f4fc77;
+}
+
+
+.message{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+}
+.msg-content{
+    width: 50%;
+}
+.msg-img{
+    width: 50%;
+}
+.msg-img img{
+    width: 100%;
 }
