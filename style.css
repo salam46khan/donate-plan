@@ -15,10 +15,14 @@ h2{
 }
 h3{
     font-size: 32px;
+    margin: 20px 0;
 }
 p{
     font-size: 20px;
     font-weight: 100;
+}
+.fa{
+    font-size: 40px;
 }
 .btn{
     display: inline-block;
@@ -97,4 +101,28 @@ p{
 }
 .input-fild{
     text-align: center;
+}
+
+
+.donate-plan{
+    padding: 5%;
+}
+.plan-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.plan-items>.item{
+    margin: 20px;
+    padding:30px 20px;
+    /* box-shadow: #1c1c1c 5px 6px 15px; */
+}
+.plan-items>.item:nth-child(1){
+    background: #fc818177;
+}
+.plan-items>.item:nth-child(2){
+    background: #81fc9177;
+}
+.plan-items>.item:nth-child(3){
+    background: #81f4fc77;
 }
