@@ -21,7 +21,7 @@ p{
     font-size: 18px;
     font-weight: 100;
     color: #a7a6a6;
-    margin: 12px;
+    margin: 12px 0;
 }
 .fa{
     font-size: 40px;
@@ -142,5 +142,38 @@ p{
     width: 50%;
 }
 .msg-img img{
+    width: 100%;
+}
+
+
+.girl{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+}
+.girl-img{
+    width: 50%;
+}
+.girl-img img{
+    width: 80%;
+    margin: 0 auto;
+}
+.girl-content{
+    width: 50%;
+    padding: 10px;
+}
+
+.men{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+}
+.men-content{
+    width: 50%;
+}
+.men-img{
+    width: 50%;
+}
+.men-img img{
     width: 100%;
 }
