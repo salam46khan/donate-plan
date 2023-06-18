@@ -100,6 +100,7 @@ p{
     text-align: center;
     border: none;
     border-bottom: 1px solid #80808031;
+    outline: none;
 }
 .input-fild{
     text-align: center;
@@ -176,4 +177,34 @@ p{
 }
 .men-img img{
     width: 100%;
+}
+
+.update{
+    padding: 5%;
+}
+.update-input{
+    padding: 60px;
+    margin: 50px 15% 0;
+    display: flex;
+    justify-content: center;
+    background: #59ff1723;
+}
+.update-input input{
+    padding: 8px 15px;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    background: #eeeeee;
+    border: none;
+}
+.update-input button{
+    padding: 8px 15px;
+    border-radius: 0 25px 25px 0;
+    color: #3a3a3a;
+    background: #59ff17;
+    transition: 0.3s;
+    border: none;
+}
+.update-input button:hover{
+    color: #fff;
+    background: #38ad0a;
 }
