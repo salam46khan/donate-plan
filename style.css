@@ -208,3 +208,9 @@ p{
     color: #fff;
     background: #38ad0a;
 }
+footer{
+    padding: 3%;
+    text-align: center;
+    background: #000;
+    color: #ccc;
+}
